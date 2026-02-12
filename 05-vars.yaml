@@ -1,13 +1,15 @@
-- name: "play level variables"
+- name: play level variables
   hosts: local
   connection: local
-  vars_files:
-  - course.yaml
+  vars:
+    COURSE: "Devops With AWS"
+    DURATION: "150HRS"
+    TRAINER: "PMPK"
   tasks:
-  - name: Print varibales
+  - name: print variables
     vars:
       COURSE: ANSIBLE
     ansible.builtin.debug:
-      msg: "Course is {{ COURSE }}, Trainer is {{ TRAINER }}"
+      msg: "Course is {{ COURSE }}, Trainer is: {{ TRAINER }}"
   
  
