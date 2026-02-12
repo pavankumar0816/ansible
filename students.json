@@ -1,0 +1,47 @@
+{
+    "students":[
+        {
+            "firstname":"pavan",
+            "dob":"16-08-2004",
+            
+            "addresses": [
+                {
+                    "type":"perm",
+                    "flatno": 100,
+                    "street":"Mountain hills",
+                    "City":"BZA"
+                },
+                {
+                    "type":"Current",
+                    "flatno": 100,
+                    "street":"Mountain hills",
+                    "City":"BZA"
+                }
+            ],
+            "skills":["java", "mern", "Cloud"]
+        },
+        {
+             "firstname":"pavan",
+            "dob":"16-08-2004",
+            
+            "addresses": [
+                {
+                    "type":"perm",
+                    "flatno": 100,
+                    "street":"Mountain hills",
+                    "City":"BZA"
+                },
+                {
+                    "type":"Current",
+                    "flatno": 100,
+                    "street":"Mountain hills",
+                    "City":"BZA"
+                }
+            ],
+            "skills":["java", "mern", "Cloud"]
+        }
+    ]
+
+
+    
+}

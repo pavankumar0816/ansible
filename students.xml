@@ -1,0 +1,55 @@
+<Students>
+    <student>
+        <FirstName>PMPK</FirstName>
+        <DOB>16-08-2004</DOB>
+        <Email>pmpk@gmail.com</Email>
+        <!-- <Address>1-20 Mountain hills, BZA</Address> (Filed) -->  
+
+        <!-- (object) -->
+        <!-- <Address>
+            <FlatNumber>104</FlatNumber>
+            <Street>Mountain Hills</Street>
+            <City>BZA</City>
+        </Address> -->
+
+        <Address>
+            <PermAddress>
+                <FlatNumber>104</FlatNumber>
+                <Street>Mountain Hills</Street>
+                <City>BZA</City>
+            </PermAddress>
+            <CurrentAddress>
+                <FlatNumber>104</FlatNumber>
+                <Street>Mountain Hills</Street>
+                <City>BZA</City>
+            </CurrentAddress>
+        </Address>
+    </student>
+
+    <student>
+        <FirstName>PMPK</FirstName>
+        <DOB>16-08-2004</DOB>
+        <Email>pmpk@gmail.com</Email>
+        <!-- <Address>1-20 Mountain hills, BZA</Address> (Filed) -->  
+
+        <!-- (object) -->
+        <!-- <Address>
+            <FlatNumber>104</FlatNumber>
+            <Street>Mountain Hills</Street>
+            <City>BZA</City>
+        </Address> -->
+
+        <Address>
+            <PermAddress>
+                <FlatNumber>104</FlatNumber>
+                <Street>Mountain Hills</Street>
+                <City>BZA</City>
+            </PermAddress>
+            <CurrentAddress>
+                <FlatNumber>104</FlatNumber>
+                <Street>Mountain Hills</Street>
+                <City>BZA</City>
+            </CurrentAddress>
+        </Address>
+    </student>
+</Students>

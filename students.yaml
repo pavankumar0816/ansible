@@ -1,0 +1,27 @@
+- name: "pavan"
+  dob: "16-08-2004"
+  mobile: 1234567890
+  addressess: 
+  - flatNumber: 104
+    street: "Mountain Hills"
+    city: Hyderabad
+    type: current
+  
+  - flatNumber: 104
+    street: "Mountain Hills"
+    city: Hyderabad
+    type: perm
+
+- name: "Sai"
+  dob: "16-08-2004"
+  mobile: 1234567890
+  addressess: 
+  - flatNumber: 104
+    street: "Mountain Hills"
+    city: Hyderabad
+    type: current
+  
+  - flatNumber: 104
+    street: "Mountain Hills"
+    city: Hyderabad
+    type: perm
