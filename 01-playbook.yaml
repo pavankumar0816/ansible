@@ -1,5 +1,7 @@
-- name: ping the server
-  hosts: web
+- name: ping the server # Play name
+  hosts: web      # Inventory group to target
   tasks:
-  - name: ping the web server
-    ansible.builtin.ping:
+  - name: ping the web server  # Task name
+    ansible.builtin.ping:      # Module it runs the ping module and checks SSH connectivity, Python availability, authentication
+                               # If successful, you’ll see: SUCCESS => {"ping": "pong"}
+  
