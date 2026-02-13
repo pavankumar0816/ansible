@@ -5,7 +5,7 @@
     PROGRAM: "MERN" # String
     DURATION: 6 # num/int
     IS_LIVE: true # bool
-    DETAILS: # map/dictionary
+    DETAILS: # map/dictionary {}
       MONTHS: 6
       TRAINER: "PMPK"
     
