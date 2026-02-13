@@ -15,3 +15,10 @@
      NAME: "Ansible From TASK"
     ansible.builtin.debug:
      msg: "Hi {{ NAME }}"
+
+  # 1. Args
+  # 2. Task
+  # 3. File
+  # 4. Prompt
+  # 5. Play
+  # 6. Inventory

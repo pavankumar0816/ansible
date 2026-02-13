@@ -1,0 +1,26 @@
+- name: Demo on data types
+  hosts: local
+  connection: local
+  vars:
+    PROGRAM: "MERN" # String
+    DURATION: 6 # num/int
+    IS_LIVE: true # bool
+    DETAILS: # map/dictionary
+      MONTHS: 6
+      TRAINER: "PMPK"
+    
+    TOPICS: # list - (or) []
+    - LINUX
+    - Node
+    - Shell
+    - Ansible
+  
+  tasks:
+  - name: Print variables
+    ansible.builtin.debug:
+     msg: |
+       PROGRAM: {{ PROGRAM }}
+       DURATION: {{ DURATION }}
+       Is Live?: {{ IS_LIVE }}
+       Details: {{ DETAILS }}
+       Topics: {{ TOPICS }}
