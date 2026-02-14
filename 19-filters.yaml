@@ -1,6 +1,6 @@
 - name: demo on filters
   hosts: local
-  connections: local
+  connection: local
   tasks:
   - name: greeting
     ansible.builtin.debug:
