@@ -9,5 +9,5 @@
     register: user_output
 
   - name: print output
-    ansible.bui;tin.debug:
+    ansible.builtin.debug:
      msg: "{{ user_output  }}"
