@@ -1,5 +1,5 @@
 - name: ping the server # Play name
-  hosts: web      # Inventory group to target
+  hosts: ansible      # Inventory group to target
   tasks:
   - name: ping the web server  # Task name
     ansible.builtin.ping:      # Module it runs the ping module and checks SSH connectivity, Python availability, authentication
