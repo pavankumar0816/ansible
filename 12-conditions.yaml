@@ -8,4 +8,3 @@
     ansible.builtin.debug:
       msg: "Yes it is live"
     when: IS_LIVE
-    

@@ -6,7 +6,7 @@
   - name: check user exists or not
     ansible.builtin.command: id roboshop
     register: user_output
-    ignore_errors: true 
+    ignore_errors: true  # If we want Ansible to continue even after an error, we use:
   
   - name: print the output
     ansible.builtin.debug:
@@ -14,4 +14,9 @@
 
   - name: Create user
     ansible.builtin.command: useradd roboshop
-    when: user_output.rc != 0
+    when: user_output.rc != 0 # Every command returns a return code (rc). rc: 0 → success, rc: 1 → failure
+
+
+# ansible.builtin.command: id roboshop
+# This checks whether the user roboshop exists or not. If the user does not exist, the command returns an error. By default, Ansible stops execution when it encounters an error.
+# If we want Ansible to continue even after an error, we use: ignore_errors: true 

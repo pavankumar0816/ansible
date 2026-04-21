@@ -6,3 +6,8 @@
   - name: user creation
     ansible.builtin.user:
       name: pmpk
+
+
+# Idempotency: Using command or shell module → not idempotent by default.
+# Using Ansible modules from collections → idempotent.
+# If a collection/module is available, use it (better and idempotent).  If no module is available, use command or shell and manually handle idempotency.
